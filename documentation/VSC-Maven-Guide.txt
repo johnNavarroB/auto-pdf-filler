@@ -1,0 +1,21 @@
+======    First steps: install VS Code, Java and Maven
+
+1. Download VS Code (https://code.visualstudio.com/download)
+
+2. Download Maven (https://maven.apache.org/download.cgi)
+
+3. Follow installation instructions (https://maven.apache.org/install.html)
+   |
+   L-> Environment variable "path" must be updated with the \bin java directory as new value
+       Env. variable "JAVA_HOME" must be created with the "root" java directory as value
+
+======    First steps: configure VS Code
+
+1. Download the following extensions from the "extensions marketplace":
+    - Extension Pack for Java
+
+2. At the bottom of the "explorer", select "MAVEN>Create Maven Project>maven-archetype-quickstart"
+
+======    Configure pom.xml
+
+1. Refer to ".\iText7-pom-dependencies.txt" for this step
